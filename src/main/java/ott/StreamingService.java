@@ -8,7 +8,7 @@ public class StreamingServices{
     this.pricePerUnit=pricePerUnit;
     this.unitInHours=unitInHours;
   }
-  public int calculatecost (int hours){
+  public int calculateCost (int hours){
     int cost = (hours / unitInHours) *pricePerUnit;
     return cost;
   }
