@@ -1,9 +1,9 @@
 package ott;
-public class StreamingServices{
+public class StreamingService{
   String name;
   int pricePerUnit;
   int unitInHours;
-  public StreamingServices(String name , int pricePerUnit , int unitInHours){
+  public StreamingService(String name , int pricePerUnit , int unitInHours){
     this.name =name;
     this.pricePerUnit=pricePerUnit;
     this.unitInHours=unitInHours;
